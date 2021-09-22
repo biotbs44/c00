@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_comb2.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: yangjeonghun <yangjeonghun@student.42      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/22 11:23:49 by yangjeong         #+#    #+#             */
+/*   Updated: 2021/09/22 11:28:56 by yangjeong        ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 
-void	ft_sort_comb2(int	num1, int	num2);
+void	ft_sort_comb2(int num1, int num2);
 
 void	ft_print_comb2(void)
 {
@@ -27,7 +39,7 @@ void	ft_print_comb2(void)
 	}
 }
 
-void	ft_sort_comb2(int	num1, int	num2)
+void	ft_sort_comb2(int num1, int num2)
 {
 	char	num1_1;
 	char	num1_2;

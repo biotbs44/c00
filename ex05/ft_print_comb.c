@@ -1,6 +1,19 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_comb.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: yangjeonghun <yangjeonghun@student.42      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/22 11:21:44 by yangjeong         #+#    #+#             */
+/*   Updated: 2021/09/22 11:29:12 by yangjeong        ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
-void	ft_sort_num(int	num);
-void	ft_print_num(char	a, char	b, char c);
+
+void	ft_sort_num(int num);
+void	ft_print_num(char a, char b, char c);
 
 void	ft_print_comb(void)
 {
@@ -27,7 +40,7 @@ void	ft_print_comb(void)
 	}
 }
 
-void	ft_sort_num(int	num)
+void	ft_sort_num(int num)
 {
 	char	a;
 	char	b;
@@ -51,10 +64,4 @@ void	ft_print_num(char a, char b, char c)
 	write(1, &b, 1);
 	write(1, &c, 1);
 	write(1, ", ", 2);
-}
-
-int	main(void)
-{
-	ft_print_comb();
-	return (0);
 }
