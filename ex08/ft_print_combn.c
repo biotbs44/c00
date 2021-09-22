@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_combn2.c                                  :+:      :+:    :+:   */
+/*   ft_print_combn.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yangjeonghun <yangjeonghun@student.42      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/22 12:28:39 by yangjeong         #+#    #+#             */
-/*   Updated: 2021/09/22 12:28:46 by yangjeong        ###   ########.fr       */
+/*   Updated: 2021/09/22 12:59:46 by yangjeong        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,4 +91,10 @@ void	ft_write_array(char *str, int num, int end, int n)
 			write(1, &str[idx_p++], 1);
 		write(1, ", ", 2);
 	}
+}
+
+int	main(void)
+{
+	ft_print_combn(5);
+	return (0);
 }
